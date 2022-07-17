@@ -1,0 +1,40 @@
+.profile {
+    background-image: url("../images/bg.jpeg");
+    height: 100%;
+    background-size: cover;
+    margin-top: -50px;
+}
+
+.about {
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 70%;
+    color: white;
+    font-family:'Comic Sans MS'; 
+}
+
+.share {
+    padding-left: 50%;
+    margin-top:5%;
+}
+
+.download{
+    border-style: double;
+    border-color: aliceblue;
+    padding:2%;
+    display:block;
+    width:18%;
+    text-align: center;
+    color: white;
+}
+
+.download:hover{
+    background-color:rgb(223, 223, 91);
+    box-shadow: 10px 10px 99px 6px rgb(223, 223, 91);
+}
+
+.contact{
+    margin-top:2%;
+}
+
+

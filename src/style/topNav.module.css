@@ -1,0 +1,33 @@
+html, body {
+    margin:0;
+    height:100%;
+    width: 100%;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+.tab {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.tabon {
+    color: rgb(65, 154, 243);
+}
+
+ul li {
+    display: inline;
+    padding: 1.5%;
+    list-style-type: none;
+    color:white;
+}
+
+ul li:hover {
+    font-size: 120%;
+}
