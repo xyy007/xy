@@ -41,4 +41,7 @@ ul li:hover {
     .leftnav{
         margin-left:0;
     }
+    .initial {
+        display:none;
+    }
 }

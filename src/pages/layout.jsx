@@ -9,7 +9,7 @@ const Layout = () => {
     <> 
       <nav>
         <ul>
-          <li>XY.Y</li>
+          <li className={styles.initial}>XY.Y</li>
           <li className={styles.leftnav}>
             <Link className={loc.includes("home") ? styles.tabon : styles.tab} to="/home">Home</Link>
           </li>

@@ -118,3 +118,29 @@ section#timeline article div.inner h2 {
 section#timeline article div.inner h2:after {
     background: #c6bfbf;
 }
+
+@media screen and (max-width: 1000px){
+    section#timeline article div.inner{
+        width:100%;
+    }
+
+    section#timeline article div.inner span.date {
+        display:none;
+    }
+
+    section#timeline article:after {
+        display: none;
+    }
+
+    section#timeline {
+        top: 1em;
+    }
+
+    section#timeline:before {
+        display: none;
+    }
+
+    section#timeline article div.inner h2:after {
+        display:none;
+    }
+}
