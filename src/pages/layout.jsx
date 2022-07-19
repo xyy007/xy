@@ -1,5 +1,6 @@
 import { Outlet,useLocation, Link } from "react-router-dom";
 import  styles from '../style/topNav.module.css';
+import React from 'react';
 
 const Layout = () => {
   const currentRoute = useLocation();
@@ -9,7 +10,7 @@ const Layout = () => {
       <nav>
         <ul>
           <li>XY.Y</li>
-          <li style={{marginLeft:"50%"}}>
+          <li className={styles.leftnav}>
             <Link className={loc.includes("home") ? styles.tabon : styles.tab} to="/home">Home</Link>
           </li>
           <li>
@@ -23,7 +24,6 @@ const Layout = () => {
           </li>
         </ul>
       </nav>
-
       <Outlet />
     </>
   )

@@ -1,8 +1,6 @@
 .whole {
-    background-color: black;
     height: 100%;
     background-size: cover;
-    margin-top: -50px;
 }
 
 section#timeline {
@@ -11,7 +9,7 @@ section#timeline {
     margin: 20px auto;
     position: relative;
     color:white;
-    top:7em;
+    top:5em;
 }
 
 section#timeline:before {

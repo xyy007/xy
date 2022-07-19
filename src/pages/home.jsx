@@ -1,5 +1,6 @@
 import styles from '../style/home.module.css';
 import cv from './resume.pdf';
+import React from 'react';
 
 const Home = () => {
   return (
@@ -15,7 +16,7 @@ const Home = () => {
       <a href={cv} download='xiaoyu_resume.pdf' className={styles.download}>Download CV</a>
     </div>
     <div className={styles.share + ' ' + styles.contact}>
-      <a href="https://www.linkedin.com/in/xiaoyu-yin-a51032181" className={styles.download} target='_blank'>Contact Me</a>
+      <a href="https://www.linkedin.com/in/xiaoyu-yin-a51032181" className={styles.download} target='_blank'>Contact</a>
     </div>
 
     </div>

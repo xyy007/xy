@@ -2,6 +2,7 @@ html, body {
     margin:0;
     height:100%;
     width: 100%;
+    background-color: black;
 }
 
 a, a:visited {
@@ -23,11 +24,21 @@ a, a:visited {
 
 ul li {
     display: inline;
-    padding: 1.5%;
+    margin: 1.5%;
     list-style-type: none;
     color:white;
 }
 
 ul li:hover {
     font-size: 120%;
+}
+
+.leftnav{
+    margin-left:50%;
+}
+
+@media screen and (max-width: 1000px){
+    .leftnav{
+        margin-left:0;
+    }
 }

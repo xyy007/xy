@@ -1,5 +1,6 @@
 import styles from '../style/timeline.module.css';
 import Timeline from '../components/timeline';
+import React from 'react';
 
 const Education =() =>{
   return(

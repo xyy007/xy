@@ -1,4 +1,5 @@
 import styles from '../style/timeline.module.css'
+import React from 'react';
 
 export default function Timeline(props) {
     return (
