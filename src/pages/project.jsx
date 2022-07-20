@@ -28,9 +28,9 @@ const projects = [
 const Project = () => {
   return (
     <div className= {styles.project} >
-       {projects.map((project) => {
+       {projects.map((project, key) => {
           return (
-            <a href= { project.link } target="_blank" className= {styles.imgLink} >
+            <a href= { project.link } target="_blank" className= {styles.imgLink} key= {key}>
               <Card className= {styles.card} >
                 <CardMedia
                     component="img"

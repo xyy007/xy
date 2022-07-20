@@ -41,7 +41,15 @@ ul li:hover {
     .leftnav{
         margin-left:0;
     }
+
     .initial {
         display:none;
+    }
+
+    ul li {
+        display: inline;
+        margin: 1%;
+        list-style-type: none;
+        color:white;
     }
 }
