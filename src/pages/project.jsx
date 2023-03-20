@@ -30,7 +30,7 @@ const Project = () => {
     <div className= {styles.project} >
        {projects.map((project, key) => {
           return (
-            <a href= { project.link } target="_blank" className= {styles.imgLink} key= {key}>
+            <a href= { project.link } target="_blank" rel="noreferrer" className= {styles.imgLink} key= {key}>
               <Card className= {styles.card} >
                 <CardMedia
                     component="img"
